@@ -39,8 +39,9 @@ ChatGPT風のUIで助成金について質問できるAIアシスタントシス
 
 - **ChatGPT風のUI**: 直感的でわかりやすい対話インターフェース
 - **Jグランツ連携**: デジタル庁の公式データベースから最新情報を取得
-- **Claude AI搭載**: Anthropic Claude 3.5 Sonnetによる高度な自然言語理解
-- **MCP統合**: Model Context Protocolを使用したツール連携
+- **Claude AI搭載**: Anthropic Claude Sonnet 4.5による高度な自然言語理解
+- **Markdown表示対応**: リッチな書式での情報表示
+- **モバイル最適化**: Android タブレットでの快適な操作性
 
 ## 🏗️ アーキテクチャ
 
@@ -65,8 +66,8 @@ ChatGPT風のUIで助成金について質問できるAIアシスタントシス
 - Tailwind CSS
 
 ### バックエンド
-- Anthropic Claude API (Claude 3.5 Sonnet)
-- FastMCP (Python)
+- Anthropic Claude API (Claude Sonnet 4.5)
+- FastMCP (Python) ※現在は直接API呼び出しを使用
 - JグランツAPI
 
 ## 🚀 セットアップ
