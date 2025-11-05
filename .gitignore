@@ -61,7 +61,10 @@ coverage/
 .temp/
 .tmp/
 
-# Screenshots
+# Screenshots (except docs directory)
 *.png
 *.jpg
 *.jpeg
+!docs/*.png
+!docs/*.jpg
+!docs/*.jpeg
